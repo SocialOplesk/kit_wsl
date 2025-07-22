@@ -7,7 +7,7 @@ Para **instalar y actualizar WSL (Windows Subsystem for Linux)** en tu PC con Wi
 
 **Requisitos previos**
 
-- Debes tener Windows 10 versión 2004 o posterior (compilación 19041+) o cualquier versión de Windows 11 para usar la instalación simplificada de WSL[^1_9][^1_10].
+- Debes tener Windows 10 versión 2004 o posterior (compilación 19041+) o cualquier versión de Windows 11 para usar la instalación simplificada de WSL.
 
 
 ### Instalación de WSL
@@ -33,7 +33,7 @@ Y luego instalar la que prefieras, por ejemplo:
 wsl --install -d Debian
 ```
 
-Reinicia el computador cuando lo indique el instalador. Esto **habilitará todas las características necesarias, descargará el kernel y dejará WSL listo para usar**[^1_9][^1_14].
+Reinicia el computador cuando lo indique el instalador. Esto **habilitará todas las características necesarias, descargará el kernel y dejará WSL listo para usar.
 
 ### Actualizar WSL
 
@@ -49,7 +49,7 @@ Puedes verificar la versión instalada con:
 wsl --version
 ```
 
-Esto garantiza que tienes el Subsistema de Windows para Linux más nuevo y, de ser aplicable, también se actualiza el kernel de Linux que usa WSL 2[^1_11].
+Esto garantiza que tienes el Subsistema de Windows para Linux más nuevo y, de ser aplicable, también se actualiza el kernel de Linux que usa WSL.
 
 
 ### Actualizar la distribución de Linux (opcional)
@@ -61,7 +61,7 @@ sudo apt update && sudo apt upgrade
 sudo do-release-upgrade
 ```
 
-Esto actualiza los paquetes y puede cambiar la versión principal de la distribución[^1_11].
+Esto actualiza los paquetes y puede cambiar la versión principal de la distribución.
 
 
 ### Cambiar a WSL 2 (si tienes WSL 1)
@@ -84,13 +84,13 @@ Por ejemplo:
 wsl --set-version Ubuntu-20.04 2
 ```
 
-Eso asigna el motor WSL 2, que tiene mejor compatibilidad y rendimiento[^1_9].
+Eso asigna el motor WSL 2, que tiene mejor compatibilidad y rendimiento.
 
 **Notas adicionales**
 
-- Si usas una versión antigua de Windows o WSL, puede que necesites habilitar manualmente los componentes opcionales “VirtualMachinePlatform” y descargar e instalar el kernel de Linux por separado[^1_10][^1_13].
+- Si usas una versión antigua de Windows o WSL, puede que necesites habilitar manualmente los componentes opcionales “VirtualMachinePlatform” y descargar e instalar el kernel de Linux por separado.
 - Asegúrate de reiniciar el PC después de cualquier cambio importante de características o actualización de componentes.
 
-Siguiendo estos pasos tendrás **WSL instalado y actualizado** a la última versión en tu sistema Windows[^1_9][^1_11][^1_14].
+Siguiendo estos pasos tendrás **WSL instalado y actualizado** a la última versión en tu sistema Windows.
 
 <div style="text-align: center">⁂</div>
